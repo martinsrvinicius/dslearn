@@ -25,3 +25,10 @@ INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_id) 
 INSERT INTO tb_section (title, description, position, img_Uri, prerequisite_id, resource_id) VALUES ('Capítulo 1', 'Neste capítulo vamos começar', 1, 'https://www.seobility.net/en/wiki/images/7/72/HTML-Sitemap.png', 1, null);
 INSERT INTO tb_section (title, description, position, img_Uri, prerequisite_id, resource_id) VALUES ('Capítulo 2', 'Neste capítulo vamos continuar', 2, 'https://www.seobility.net/en/wiki/images/7/72/HTML-Sitemap.png', 1, 1);
 INSERT INTO tb_section (title, description, position, img_Uri, prerequisite_id, resource_id) VALUES ('Capítulo 3', 'Neste capítulo vamos finalizar', 3, 'https://www.seobility.net/en/wiki/images/7/72/HTML-Sitemap.png', 1, 2);
+
+
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (1, 1, '2024-03-25T13:00:00Z', null, true, false);
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (2, 1, '2024-03-25T13:00:00Z', null, true, false);
+
+
+
